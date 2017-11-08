@@ -274,8 +274,17 @@ footer {
   .section2 {
     height: 120vh; }
 
+  footer a {
+    font-size: 0.8em; }
+
   .footer-item {
     width: 50%; }
+    .footer-item h4 {
+      font-size: 1em; }
+    .footer-item p {
+      font-size: 0.7em; }
+    .footer-item a {
+      font-size: 0.7em; }
 
   .item3 {
     display: none; } }

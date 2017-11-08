@@ -337,8 +337,22 @@ footer {
 	.section2 {
 		height: 120vh;
 	}
+	footer {
+		a {
+			font-size: 0.8em;
+		}
+	}
 	.footer-item {
 		width: 50%;
+		h4 {
+			font-size: 1em;
+		}
+		p {
+			font-size: 0.7em;
+		}
+		a {
+			font-size: 0.7em;
+		}
 	}
 	.item3 {
 		display: none;
