@@ -317,8 +317,14 @@ footer {
 @media (max-width: 850px) {
 	.nav {
 		flex-direction: column;
+		width: 100%;
+		left: 0;
+		text-align: center;
 		.navbtns {
 			margin-top: 1em;
+			a {
+				margin: 0 0.5em;
+			}
 		}
 	}
 	.section1 {

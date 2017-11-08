@@ -255,9 +255,14 @@ footer {
     height: 33.33%; } }
 @media (max-width: 850px) {
   .nav {
-    flex-direction: column; }
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+    text-align: center; }
     .nav .navbtns {
       margin-top: 1em; }
+      .nav .navbtns a {
+        margin: 0 0.5em; }
 
   .section1 {
     height: 200vh; }
